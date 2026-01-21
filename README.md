@@ -1,70 +1,53 @@
-# 🌌 I-G Law – Information-Gravity Law  
-**"Order is the Hidden Gravity"**  
-A Python-based simulation exploring an emergent gravity model based on structural information complexity
+# 🌌 I-G Law: Information-Geometric Gravity
+**"Deciphering Galactic Motion through Structural Complexity"**
 
-![Simulation Result](IG%20Simulation.png)  
-*(Green: I-G Law – maintains flat rotation curve; Red: Newtonian only – declining)*
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Important Legal & Attribution Notice
+The **I-G Law** is a computational framework exploring an emergent gravity model. It proposes that galactic rotation curves can be explained by the **Structural Information Complexity (ℂ)** of baryonic matter, potentially removing the need for non-baryonic Dark Matter at galactic scales.
 
-**This repository uses publicly available astronomical data from the SPARC database.**  
-All rotation curve data, baryonic mass models (e.g., v_disk), and related measurements shown in plots or used in the simulation are derived from:
+## 🏆 Major Milestone: The Triple Crown Validation
+As of **January 21, 2026**, the I-G Law has successfully demonstrated high-precision fits for three distinct galactic morphologies:
+1. **NGC 3198**: A classic giant spiral (Baryon-dominated).
+2. **DDO 154**: A gas-dominated dwarf galaxy (The "Knee" alignment challenge).
+3. **NGC 1560**: A low-surface-brightness spiral with sensitive inner bumps.
 
-- Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016).  
-  *SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves*.  
-  The Astronomical Journal, 152(6), 157.  
-  DOI: https://doi.org/10.3847/0004-6256/152/6/157  
-  Public data access: http://astroweb.cwru.edu/SPARC/
+---
 
-**The original SPARC data are used here strictly for non-commercial, educational, and exploratory research purposes.**  
-This usage fully complies with the open-science policy of the SPARC team.  
-**If you use any data, plots, results, or code derived from this repository in your own work (scientific, educational, or otherwise), you must cite the above SPARC paper** as the source of the underlying astronomical measurements.
+## ⚖️ Legal & Attribution Notice (CRITICAL)
 
-**The I-G Law model, the concept of Structural Complexity Factor (ℂ), the simulation logic, the code implementation, and all interpretations and conclusions presented here are the original work of the author (@TheSpacetimeDebugger).**  
-This project is a personal proof-of-concept and exploratory toy model. It is **not** a peer-reviewed scientific publication, nor does it constitute an official claim to have solved or replaced established cosmological models (such as ΛCDM or dark matter paradigms).
+### 1. Data Source & Citation
+This project utilizes publicly available astronomical data from the **SPARC (Spitzer Photometry and Accurate Rotation Curves)** database.
+- **Reference**: Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016). *SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves*. The Astronomical Journal, 152(6), 157.
+- **Data Access**: [astroweb.cwru.edu/SPARC/](http://astroweb.cwru.edu/SPARC/)
 
-## Project Description
+**Usage Policy**: This data is used strictly for non-commercial, educational, and exploratory research. If you utilize any results or plots from this repository, **you MUST cite the SPARC paper** above as the primary source of the underlying measurements.
 
-The I-G Law proposes that gravitational attraction in galaxies includes an emergent component arising from **structural information complexity** (ℂ) within ordered cosmic systems.  
-This additional term aims to provide a computational explanation for flat rotation curves at large galactic radii **without** requiring non-baryonic dark matter particles.
+### 2. Intellectual Property & Disclaimer
+- **Original Work**: The I-G Law formulation, the Complexity mapping logic, and the code implementation are the original work of the author (**@TheSpacetimeDebugger**).
+- **Status**: This is a **proof-of-concept toy model** and an independent exploratory project. It is **not** a peer-reviewed scientific publication.
+- **No Claims**: This project does not claim to officially replace the $\Lambda$CDM model or Dark Matter paradigms. It is a mathematical exploration of alternative gravity.
 
-### Simplified Core Idea (Conceptual)
-F_total ≈ G M m / r² + Ω ⋅ ℂ(r)  
+---
 
-Where:
-- ℂ(r) = Structural Complexity Factor (currently implemented as a simple radial scaling proxy for demonstration purposes)
-- Ω = universal balance constant (tuned in the simulation)
+## 🔬 Core Concept
+The total gravitational influence is modeled as:
+$$V_{total} = \sqrt{V_{baryonic}^2 \cdot \alpha + V_{complexity}^2}$$
 
-This is **not** a complete physical theory yet — it is an experimental computational exploration.
+Where $V_{complexity}$ is derived from the geometric distribution of visible matter, mapping information density to gravitational "boost".
 
-### Current Demonstration: NGC 3198
-The included plot shows:
-- Red points → Observed rotation velocities (from SPARC data)
-- Blue dashed line → Pure Newtonian prediction from baryonic matter only
-- Green line → I-G Law modified velocity — flat at approximately 155 km/s in the outer regions
+---
 
-This qualitative match illustrates the potential of the complexity-based term to reproduce observed flatness in this simplified case.
+## 📂 Repository Structure
+- `NGC_3198.py`: Fit for giant spirals.
+- `DDO_154.py`: Optimized fit for gas-dominated dwarfs.
+- `NGC_1560.py`: High-precision fit for LSB spirals.
 
-## How to Run the Simulation
-
-Requirements:
-- Python 3.x
-- numpy
-- matplotlib
-
+## 🛠 Installation & Usage
 ```bash
-git clone https://github.com/TheSpacetimeDebugger/I-G-Law.git
+git clone [https://github.com/TheSpacetimeDebugger/I-G-Law.git](https://github.com/TheSpacetimeDebugger/I-G-Law.git)
 cd I-G-Law
 pip install numpy matplotlib
-python IG_Law_Simulation.py
-
-(Adjust the script name if your main file is named differently.)LicenseMIT License — see the LICENSE file for full details.
-(The code is free to use, modify, and share; astronomical data remain governed by their original open-science terms.)DisclaimerThis is an independent, non-peer-reviewed personal project.
-No warranty is made regarding scientific accuracy, physical correctness, cosmological validity, or reproducibility in all cases.
-Use at your own risk.
-Constructive feedback, criticism, suggestions, and collaborative improvements are very welcome via issues or pull requests.Contact & DiscussionX / Twitter: @thesbctd
-  
-Feel free to open issues or pull requests — let's debug spacetime together! 
-
-Star  if you're interested in alternative ideas in galaxy dynamics and emergent gravity!
-
+python NGC_1560.py
+🤝 Collaboration & Feedback
+​Constructive criticism and scientific discussions are welcome. Let's debug spacetime together!
+​Contact: X / Twitter @thesbctd
