@@ -68,3 +68,10 @@ python F571_8.py
 ​Email: [sydbrahim02@gmail.com]
 ​X / Twitter: [@thesbctd]
 ​"Debugging Spacetime, one galaxy at a time.
+### 🚀 Latest Milestone: The 7th Galaxy (IC 1613)
+We have successfully validated the **I-G Law** on **IC 1613**, an Irregular Dwarf galaxy outside the core SPARC sample. 
+
+**Key Findings:**
+* **Zero Tuning:** The model matched the rotation curve using the exact same complexity parameters used for previous spiral galaxies.
+* **Irregularity Handling:** Proved that Information-Geometric gravity accounts for asymmetric baryonic distributions.
+* **Result:** High-fidelity fit achieved without Dark Matter.
