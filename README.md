@@ -1,4 +1,5 @@
-
+​Cite this work: https://doi.org/10.5281/zenodo.18673172
+••••
 ---
 🌌 I-G Law: Information-Geometric Gravity
 
