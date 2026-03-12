@@ -107,6 +107,7 @@ DDO_154.py
 
 NGC_1560.py
 
+D44.py
 
 Proof images:
 
@@ -125,6 +126,8 @@ NGC_3198_proof.png
 DDO_154_proof.png
 
 NGC_1560_proof.png
+
+D44_proof.png
 
 
 Documentation:
