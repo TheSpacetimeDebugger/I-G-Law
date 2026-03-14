@@ -3,7 +3,6 @@
 I-G LAW: INFORMATION-GEOMETRIC GRAVITY - FINAL RESEARCH VERSION
 ===================================================================
 Author: Ibrahim Al-Shami (@TheSpacetimeDebugger)
-Co-author: AI Assistant
 DOI: 10.5281/zenodo.18673172
 GitHub: https://github.com/TheSpacetimeDebugger/I-G-Law
 
