@@ -85,13 +85,12 @@ This formulation naturally reproduces the Radial Acceleration Relation as an out
 I-G-Law/
 │
 ├── 📜 IGLaw_Universal.py           # MAIN CODE - Universal I-G Law solver for any galaxy
-├── 📜 IGLaw_Light_Mobile.py         # Lightweight version for mobile/Pydroid
+├──        # Lightweight version for mobile/Pydroid
 │
-├── 📁 research_paper/
+├──
 │   ├── Technical_Report.pdf         # Full technical documentation
 │   └── Validation_Series/           # Detailed validation results
-│
-├── 📁 galaxy_scripts/                # Individual galaxy implementations
+│        # Individual galaxy implementations
 │   ├── AGC_114905.py
 │   ├── IC_1613.py
 │   ├── UGC_4325.py
@@ -101,8 +100,7 @@ I-G-Law/
 │   ├── DDO_154.py
 │   ├── NGC_1560.py
 │   └── D44.py
-│
-├── 📁 proof_images/                  # Validation proof images
+│          # Validation proof images
 │   ├── AGC_114905_proof.png
 │   ├── IC_1613_proof.png
 │   ├── UGC_4325_proof.png
@@ -112,12 +110,6 @@ I-G-Law/
 │   ├── DDO_154_proof.png
 │   ├── NGC_1560_proof.png
 │   └── D44_proof.png
-│
-└── 📁 examples/                      # Example usage
-├── example_spiral_galaxy.py
-├── example_dwarf_galaxy.py
-└── bullet_cluster_demo.py
-
 ```
 
 ---
